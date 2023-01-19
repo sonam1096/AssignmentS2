@@ -7,18 +7,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      button:hover{
+        background-color:whitesmoke;
+        color:red;
+      }
+    </style>
   </head>
   <body>
-    <button onclick="PrintDeveloperswithMap()">
-      Console log Develpers with Map
-    </button>
-    <button onclick="PrintDeveloperbyForEach()">
-      Console log Develpers with foreach
-    </button>
-    <button onclick="addData()">Console New Data with 4th Person</button>
-    <button onclick="removeAdmin()">Remove Admin</button>
-    <button onclick="concatenateArray()">concatenateArray</button>
+    <div id="employee">
 
+    </div>
+
+    <button onclick="PrintDeveloperswithMap()" >
+       Developers with Map
+    </button>
+
+    <br><br>
+
+    <button onclick="PrintDeveloperbyForEach()">
+       Developers with forEach
+    </button>
+
+    <br><br>
+
+    <button onclick="addData()">Add New Data </button>
+    
+    <br><br>
+
+    <button onclick="removeAdmin()">Remove Admin</button>
+    
+    <br><br>
+    
+    <button onclick="concatenateArray()">concate Array</button>
+    
+    <br><br>
+    
     <script src="./script.js"></script>
+  
   </body>
 </html>
